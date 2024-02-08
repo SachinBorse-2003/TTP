@@ -1,0 +1,51 @@
+What is VCS?
+A Version Control System is a tool that helps manage and keep track of changes to software code, facilitating collaboration and ensuring the integrity of a project's history.
+
+Key Operations in VCS:
+Pushing: Sending changes from a local repository to a remote repository.
+Pulling: Fetching changes from a remote repository to update the local repository.
+Branching: Creating separate lines of development within a project to work on features or fixes independently.
+Merging: Combining changes from different branches into a single branch.
+Master/Main Branch: The primary branch in a VCS, holding the project's stable and production-ready code.
+Upstream Branch: The original repository from which forks or clones are made, typically used for fetching updates or submitting contributions.
+.gitignore File: Specifies files and directories that should not be tracked by VCS, useful for excluding temporary or sensitive data.
+Types of VCS:
+Centralized Version Control System (CVCS):
+
+Utilizes a single, centralized repository to store all versions of project files.
+Pros:
+Simplifies collaboration through a centralized repository.
+Facilitates version control and access control.
+Cons:
+Single point of failure if the central repository is compromised.
+Can experience slow operations due to reliance on the central server.
+Examples: Concurrent Versions System (CVS), Subversion (SVN).
+Distributed Version Control System (DVCS):
+
+Allows each developer to have a full copy of the project history, enabling work without a constant connection to a central server.
+Pros:
+Enhanced history tracking and version control.
+Supports parallel development with more efficient operations.
+Cons:
+Increased complexity in branch management.
+Potential for merge conflicts and synchronization challenges.
+Examples: Git, Mercurial.
+Development Methodologies:
+Trunk Based Development:
+
+A strategy where developers commit small, frequent updates to the main branch, promoting continuous integration and deployment.
+Pros:
+Encourages fast iteration and minimizes merge conflicts.
+Facilitates continuous delivery and deployment practices.
+Cons:
+Can lead to code instability if not managed properly.
+May not be suitable for very large projects with multiple parallel features in development.
+Branch Based Development:
+
+Developers create separate branches for each feature or task, merging them back into the main branch upon completion.
+Pros:
+Isolates changes, making it easier to manage individual features or fixes.
+Promotes code ownership and review processes.
+Cons:
+Managing many branches can become complex.
+Potential for integration delays and merge conflicts.
