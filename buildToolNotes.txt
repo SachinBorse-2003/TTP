@@ -1,0 +1,23 @@
+Date: 6 Feb
+Topic: Build Tools
+Build tools are software applications designed to automate the compilation of code, manage dependencies, and produce executable programs.
+
+Key Objectives:
+
+Automation of Compilation
+Dependency Management
+Task Automation
+Providing a Structured Lifecycle
+Problems Solved by Build Tools:
+
+Simplification of Complex Processes
+Minimization of Inconsistencies
+Elimination of Repetitive Tasks
+Build Tools Include:
+
+Gradle
+Maven
+
+
+
+
