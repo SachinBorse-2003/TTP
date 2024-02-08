@@ -42,7 +42,7 @@ Can lead to code instability if not managed properly.
 May not be suitable for very large projects with multiple parallel features in development.
 Branch Based Development:
 
-Developers create separate branches for each feature or task, merging them back into the main branch upon completion.
+Developers create  separate branches for each feature or task, merging them back into the main branch upon completion.
 Pros:
 Isolates changes, making it easier to manage individual features or fixes.
 Promotes code ownership and review processes.
